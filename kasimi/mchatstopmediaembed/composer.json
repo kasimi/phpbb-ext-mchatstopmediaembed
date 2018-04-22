@@ -22,6 +22,12 @@
         "display-name": "mChat Stop Media Embed",
         "soft-require": {
             "phpbb/phpbb": ">=3.1.8"
+        },
+        "version-check": {
+            "host": "kasimi.github.io",
+            "directory": "/phpbb_versions",
+            "filename": "mchatstopmediaembed_version.json",
+            "ssl": true
         }
     }
 }
