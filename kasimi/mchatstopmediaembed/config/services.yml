@@ -1,0 +1,5 @@
+services:
+    kasimi.mchatstopmediaembed.listener:
+        class: kasimi\mchatstopmediaembed\event\main_listener
+        tags:
+            - { name: event.listener }
